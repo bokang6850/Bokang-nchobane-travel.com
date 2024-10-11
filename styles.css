@@ -1,0 +1,151 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    display: flex;
+    
+}
+
+header {
+    background-color: #0077cc;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: color 0.3s;
+    display: inline;
+    flex-direction: column;
+    text-align: center;
+
+}
+nav ul li{
+    text-align: center;
+    padding: 10px;
+    display: inline;
+    margin: 0.15px;
+    background-color:#0077cc;
+    background-size: cover;
+    color: white;
+    position: 0;
+    width: 100%;
+}
+.pook{
+    text-decoration:blink;
+    background: white;
+
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+.carousel {
+    display:flex;
+    flex-direction: row;
+    overflow: auto;
+    margin: 20px 0;
+}
+.carouse1-item{
+    position: fixed;
+    width: 50px;
+    transition: 0.5;
+
+}
+
+
+p{color:black;}
+.p1{color: white;}
+.p3{color: white;}
+
+.carousel img {
+    width: 450px;
+    height: 500px;
+    transition: transform 0.5s;
+}
+
+
+.carousel img:hover {
+    transform: scale(1.05);
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+}
+
+.destination-list {
+    display:flex;
+    flex-direction: row;    
+    flex-wrap: all;
+    justify-content: space-around;
+    background-color:powderblue;
+
+
+
+}
+.destination-grid: {
+    display: grid;
+    grid-column-gap: 1rem;
+}
+.multimedia{
+    display: inline-flex;
+    background-color: powderblue;
+
+}
+
+.destination-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: calc(30% - 20px);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+footer {
+    background-color: #0077cc;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+
+input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0059
+    }
+}
